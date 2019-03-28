@@ -1,0 +1,28 @@
+<html>
+<head><title>msg sent</title></head>
+
+<body bgcolor="lightblue" font="timesNewRoman">
+<center>
+
+
+<table border="2" width=500 height=400
+
+<td><th>ID</th><th>NAME</th><th>DOB</th></td>
+<h1>Employee Details</h1>
+<h2>msg has been sent</h2>
+
+{% for i in rec %}
+
+<tr>
+<td>{{ i.eid }}  </td>
+<td>{{ i.ename }} </td>
+<td>{{ i.dob }}  </td>
+
+
+{% endfor %}
+
+</tr>
+</table>
+
+</body>
+</html>
